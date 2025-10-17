@@ -109,7 +109,7 @@ visitGitHubButton._set_dimensions(width = 150, height = 30)
 
 #================================ Visit Github Page ================================
 def VisitGitHubPage():
-    browser.open('https://www.google.com/maps/')
+    browser.open('https://github.com/Ak0sTib0r/UnderGrad')
 
 visitGitHubButton = customtkinter.CTkButton(master = root, text = "GitHub Page", command = VisitGitHubPage, fg_color = "#651fc1", hover_color = "#7124d5")
 visitGitHubButton.place(x = rootWidth * 0.75 - 75, y = 350 + yOffSet)
