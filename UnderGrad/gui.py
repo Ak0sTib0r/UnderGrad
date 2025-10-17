@@ -12,7 +12,6 @@ __version__ = "0.5"
 
 import customtkinter
 import os
-import sys
 import mktemp
 import subprocess as prog
 import _config
