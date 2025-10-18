@@ -4,71 +4,61 @@
 UnderGrad is an open source note taking package specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for latex. 
 
 ## Setup and Configuration
-## Prerequisites
+### Prerequisites
+
+Before you start setting up UnderGrad, make sure you have:
 
 - Windows 10/11
-- Package manager (Chocolatey, Winget, or Scoop)
-- VS Code (or install it during this process)
+- Package manager 'Winget' (this should already be installed if you're running Windows)
+- VS Code (you can either go to the end of the guide and follow the steps or install VSCode on your own from the official VSCode website: https://code.visualstudio.com/download)
+- Python (version 3.9.6) (again, you can install this from here: https://www.python.org/downloads/)
 
-## Step 1: Install MiKTeX
+#### Step 1: Install MiKTeX
 
-Choose one of the following methods:
+- Open Command Prompt (CMD) and type the following command:
 
-### Option A: Using Winget (Recommended)
 ```powershell
 winget install MiKTeX.MiKTeX
 ```
 
-### Option B: Using Chocolatey
-```powershell
-choco install miktex -y
-```
+This should install latex on your system.
 
-### Option C: Using Scoop
-```powershell
-scoop install miktex
-```
+#### Step 2: Update MiKTeX and Configure
 
-## Step 2: Update MiKTeX and Configure
+Use the terminal and update MiKTeX using this command:
 
-1. Open a new terminal and update MiKTeX:
 ```cmd
 miktex packages update
 ```
 
-2. Or use MiKTeX Console (GUI):
-   - Open MiKTeX Console from Start menu
-   - Go to "Updates" tab and install all updates
-   - In Settings > General, set "Package installation" to "Always install missing packages on-the-fly"
+#### Step 3: Install Strawberry Perl
 
-## Step 3: Install Strawberry Perl
-
-`latexindent` requires Perl. Install Strawberry Perl:
+`latexmk` and `latexindent` are the two essential latex modules that UnderGrad and VSCode need to be able to produce .tex files and convert them into viewable PDFs. They both require Perl to run. So, you now need to install 'Strawberry Perl' on your system using this command:
 
 ```powershell
 winget install StrawberryPerl.StrawberryPerl
 ```
 
-**Important**: Close and reopen your terminal after installation!
+**Very Important**: Close and reopen your terminal after installation is complete!
 
-## Step 4: Configure Perl Environment
+#### Step 4: Configure your Perl Environment
 
 If you have multiple Perl installations, you might need to prioritize Strawberry Perl:
 
-1. Check which Perl is being used:
+1. First, check which Perl is being used:
 ```cmd
 where perl
 perl --version
 ```
 
-2. If the wrong Perl is being used, temporarily set the correct path:
+2. If the wrong Perl is being used (Not Strawberry), temporarily set the correct path:
 ```cmd
 set PATH=C:\Strawberry\perl\bin;C:\Strawberry\c\bin;%PATH%
 ```
 
-## Step 5: Install Required Perl Modules
+#### Step 5: Install Some Important Perl Modules
 
-Install the modules needed by `latexindent`:
+Install the modules needed by `latexindent` by running these commands on your terminal (one-by-one):
 
 ```cmd
 cpan YAML::Tiny
@@ -77,50 +67,26 @@ cpan Log::Log4perl
 cpan Log::Dispatch
 ```
 
-## Step 6: Install MiKTeX Packages
+#### Step 6: Install Some Important MiKTeX Packages
 
-Install the required LaTeX packages:
+Install the required LaTeX packages (one-by-one):
 
 ```cmd
 miktex packages install latexindent
 miktex packages install latexmk
 ```
 
-## Step 7: Create latexindent Wrapper Script
+#### Step 7: Install and Configure VS Code
 
-1. Create a directory for scripts (if it doesn't exist):
-```cmd
-mkdir C:\dev\scripts
-```
+Install VS Code with winget (if not already installed):
 
-2. Create `C:\dev\scripts\latexindent.bat`:
-```batch
-@echo off
-C:\Strawberry\perl\bin\perl.exe "%LOCALAPPDATA%\Programs\MiKTeX\scripts\latexindent\latexindent.pl" %*
-```
-
-3. Add the scripts directory to your PATH:
-```cmd
-setx PATH "%PATH%;C:\dev\scripts"
-```
-
-**Note**: Close and reopen your terminal after this step!
-
-## Step 8: Install and Configure VS Code
-
-1. Install VS Code (if not already installed):
 ```powershell
 winget install Microsoft.VisualStudioCode
 ```
 
-2. Install LaTeX Workshop extension:
-```cmd
-code --install-extension James-Yu.latex-workshop
-```
+#### Step 8: Configure VS Code Settings
 
-## Step 9: Configure VS Code Settings
-
-Open VS Code settings (Ctrl+,), click the JSON icon in the top right, and add:
+Open VS Code settings (bottom left corner), click the JSON icon in the top right corner of the navigation bar. You should now be in a file called 'setting.json'. Paste the following in this file:
 
 ```json
 {
@@ -196,7 +162,7 @@ Open VS Code settings (Ctrl+,), click the JSON icon in the top right, and add:
 }
 ```
 
-## Step 10: Test Your Setup
+#### Step 9: Test Your Setup
 
 1. Create a test file `test.tex`:
 
@@ -232,47 +198,4 @@ E = mc^2
 
 \end{document}
 ```
-
-2. Open the file in VS Code
-3. Save it (Ctrl+S) - it should auto-format the indentation
-4. Build it (Ctrl+Alt+B) - it should create a PDF
-
-## Troubleshooting
-
-### Issue: `latexindent` not found
-- Make sure Perl is in your PATH: `perl --version`
-- Check if latexindent works directly: `C:\Strawberry\perl\bin\perl.exe "%LOCALAPPDATA%\Programs\MiKTeX\scripts\latexindent\latexindent.pl" --version`
-- Ensure `C:\dev\scripts` is in your PATH: `echo %PATH%`
-
-### Issue: Multiple Perl installations conflicting
-- Check which Perl is being used: `where perl`
-- Temporarily override PATH: `set PATH=C:\Strawberry\perl\bin;%PATH%`
-- Or uninstall conflicting Perl installations
-
-### Issue: LaTeX packages missing
-- Enable automatic installation in MiKTeX Console
-- Or install manually: `miktex packages install <package-name>`
-
-### Issue: "LaTeX formatter is set to 'none'"
-- Ensure your settings.json includes: `"latex-workshop.formatting.latex": "latexindent"`
-- Restart VS Code after changing settings
-
-## Additional Tips
-
-1. Keep MiKTeX updated regularly:
-   ```cmd
-   miktex packages update
-   ```
-
-2. For manual formatting in VS Code:
-   - Right-click and select "Format Document"
-   - Or use keyboard shortcut: `Shift+Alt+F`
-
-3. View LaTeX Workshop output for debugging:
-   - View → Output → Select "LaTeX Workshop" from dropdown
-
-4. Common LaTeX packages you might want to install:
-   ```cmd
-   miktex packages install amsmath amssymb graphicx hyperref babel geometry
-   ```
 
