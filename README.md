@@ -13,6 +13,7 @@ Before you start setting up UnderGrad, make sure you have:
 - VS Code (you can either go to the end of the guide and follow the steps or install VSCode on your own from the official VSCode website: https://code.visualstudio.com/download)
 - Python (version 3.9.6) (again, you can install this from here: https://www.python.org/downloads/)
 
+### Setup
 #### Step 1: Install MiKTeX
 
 - Open Command Prompt (CMD) and type the following command:
