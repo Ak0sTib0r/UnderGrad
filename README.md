@@ -1,6 +1,6 @@
 ![Alt text](UnderGrad/UG_Cropped.png)
 
-<p align="center">(logo by _Alex Tudorache_)</p>
+<p align="center">(credit: Alex Tudorache)</p>
 
 
 # UnderGrad
