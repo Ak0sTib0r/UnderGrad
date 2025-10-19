@@ -1,3 +1,5 @@
+![Alt text](UnderGrad/UG.png)
+
 # UnderGrad
 
 ## Introduction
