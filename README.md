@@ -94,7 +94,7 @@ winget install Microsoft.VisualStudioCode
 
 #### Step 8: Configure VS Code Settings
 
-Open VS Code settings (bottom left corner), click the JSON icon in the top right corner of the navigation bar. You should now be in a file called 'setting.json'. Paste the following in this file:
+Open VS Code settings (bottom left corner), click the JSON icon in the top right corner of the navigation bar. You should now be in a file called 'setting.json'. Check to see if the following is included in this file (if it isn't, copy and paste from here):
 
 ```json
 {
@@ -208,3 +208,4 @@ E = mc^2
 ```
 
 ### Part III: Setup and Configure UnderGrad
+
