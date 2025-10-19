@@ -1,6 +1,6 @@
 ![Alt text](UnderGrad/UG_Cropped.png)
 
-<h1 align="center">(logo by _Alex Tudorache_)</h1>
+<p align="center">(logo by _Alex Tudorache_)</p>
 
 
 # UnderGrad
