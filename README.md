@@ -2,9 +2,6 @@
 
 <p align="center">(credit: Alex Tudorache)</p>
 
-
-# UnderGrad
-
 ## Introduction
 UnderGrad is an open source note taking package specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for latex. 
 
