@@ -1,6 +1,4 @@
-![Alt text](UnderGrad/UG_Cropped.png = 50x100)
-
-<img src = "UnderGrad/UG_Cropped.png" width = "60%" height = "60%" align = "center">
+![](UnderGrad/UG_Cropped.png)
 
 <p align="center">(credit: Alex Tudorache)</p>
 
