@@ -1,5 +1,7 @@
 ![Alt text](UnderGrad/UG_Cropped.png)
-(logo by AlexTudorache)
+
+<p style="text-align:center;">(logo by AlexTudorache)</p>
+
 # UnderGrad
 
 ## Introduction
