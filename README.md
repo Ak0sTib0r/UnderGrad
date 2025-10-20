@@ -2,7 +2,7 @@
 
 <p align="center">(credit: Alex Tudorache)</p>
 
-## Introduction
+# Introduction
 UnderGrad is an open source note taking package specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for latex. 
 
 The next section is split into three parts:
@@ -10,18 +10,18 @@ The next section is split into three parts:
 - Setup VSCode with Latex
 - Setup and Configure Undergrad
 
-## Setup and Configuration
-### Part I: Prerequisites
+# Setup and Configuration
+## Part I: Prerequisites
 
 Before you start setting up UnderGrad, make sure you have:
 
-- Windows 10/11
+- Windows 10 or 11
 - Package manager 'Winget' (this should already be installed if you're running Windows)
 - VS Code (you can either go to the end of the guide and follow the steps or install VSCode on your own from the official VSCode website: https://code.visualstudio.com/download)
 - Python (version 3.9.6) (again, you can install this from here: https://www.python.org/downloads/)
 
-### Part II: Setup VSCode with Latex
-#### Step 1: Install MiKTeX
+## Part II: Setup VSCode with Latex
+### Step 1: Install MiKTeX
 
 - Open Command Prompt (CMD) and type the following command:
 
@@ -31,7 +31,7 @@ winget install MiKTeX.MiKTeX
 
 This should install latex on your system.
 
-#### Step 2: Update MiKTeX and Configure
+### Step 2: Update MiKTeX and Configure
 
 Use the terminal and update MiKTeX using this command:
 
@@ -39,7 +39,7 @@ Use the terminal and update MiKTeX using this command:
 miktex packages update
 ```
 
-#### Step 3: Install Strawberry Perl
+### Step 3: Install Strawberry Perl
 
 `latexmk` and `latexindent` are the two essential latex modules that UnderGrad and VSCode need to be able to produce .tex files and convert them into viewable PDFs. They both require Perl to run. So, you now need to install 'Strawberry Perl' on your system using this command:
 
@@ -47,9 +47,9 @@ miktex packages update
 winget install StrawberryPerl.StrawberryPerl
 ```
 
-**Very Important**: Close and reopen your terminal after installation is complete!
+**VERY IMPORTANT**: CLOSE AND REOPEN YOUR TERMINAL AFTER INSTALLATION IS COMPLETE!
 
-#### Step 4: Configure your Perl Environment
+### Step 4: Configure your Perl Environment
 
 If you have multiple Perl installations, you might need to prioritize Strawberry Perl:
 
@@ -64,7 +64,9 @@ perl --version
 set PATH=C:\Strawberry\perl\bin;C:\Strawberry\c\bin;%PATH%
 ```
 
-#### Step 5: Install Some Important Perl Modules
+Most users can ignore this as you probably don't have any version of perl on your system.
+
+### Step 5: Install Some Important Perl Modules
 
 Install the modules needed by `latexindent` by running these commands on your terminal (one-by-one):
 
@@ -75,7 +77,7 @@ cpan Log::Log4perl
 cpan Log::Dispatch
 ```
 
-#### Step 6: Install Some Important MiKTeX Packages
+### Step 6: Install Some Important MiKTeX Packages
 
 Install the required LaTeX packages (one-by-one):
 
@@ -84,7 +86,7 @@ miktex packages install latexindent
 miktex packages install latexmk
 ```
 
-#### Step 7: Install and Configure VS Code
+### Step 7: Install and Configure VS Code
 
 Install VS Code with winget (if not already installed):
 
@@ -92,7 +94,7 @@ Install VS Code with winget (if not already installed):
 winget install Microsoft.VisualStudioCode
 ```
 
-#### Step 8: Configure VS Code Settings
+### Step 8: Configure VS Code Settings
 
 Open VS Code settings (bottom left corner), click the JSON icon in the top right corner of the navigation bar. You should now be in a file called 'setting.json'. Check to see if the following is included in this file (if it isn't, copy and paste from here):
 
@@ -170,7 +172,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 }
 ```
 
-#### Step 9: Test Your Setup
+### Step 9: Test Your Setup
 
 1. Create a test file `test.tex`:
 
@@ -207,5 +209,5 @@ E = mc^2
 \end{document}
 ```
 
-### Part III: Setup and Configure UnderGrad
+## Part III: Setup and Configure UnderGrad
 
