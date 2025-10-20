@@ -177,34 +177,30 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 1. Create a test file `test.tex`:
 
 ```latex
-\documentclass{article}
-\usepackage{amsmath}
+\documentclass[11pt, a4paper]{article}
+\usepackage[left = 2cm, right = 2cm, top = 2cm, bottom = 2cm]{geometry} % Set margins
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath} % Required for Writing Mathematics
+\usepackage{amssymb} % Contains some mathematical symbols
+\usepackage{amsfonts} % Contains some mathematical fonts
+
+% This is a template file for writing Mathtematics Lecture Notes.
+
+\title{Title}
+\author{Author}
 
 \begin{document}
-\title{LaTeX Test}
-\author{Your Name}
 \maketitle
 
-\section{Introduction}
-This is a test document.
+\textbf{Definition:} This is a definition.
 
-\subsection{Math Test}
-Here's an equation:
+\textbf{Remark:} This is a remark.
+
+\textbf{Example:} This is an example.
+
 \begin{equation}
-E = mc^2
+    F_{12}=\frac{Q_1Q_2}{4\pi\varepsilon_0r^2}
 \end{equation}
-
-    \begin{itemize}
-\item First item
-        \item Second item
-    \item Third item
-\end{itemize}
-
-    \begin{enumerate}
-  \item One
-      \item Two
-   \item Three
-    \end{enumerate}
 
 \end{document}
 ```
