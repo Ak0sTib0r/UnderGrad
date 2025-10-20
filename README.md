@@ -20,7 +20,7 @@ Before you start setting up UnderGrad, make sure you have:
 - VS Code (you can either go to the end of the guide and follow the steps or install VSCode on your own from the official VSCode website: https://code.visualstudio.com/download)
 - Python (version 3.9.6) (again, you can install this from here: https://www.python.org/downloads/)
 
-## Part II: Setup VSCode with Latex
+## Part II: Setup VSCode with LaTex
 ### Step 1: Install MiKTeX
 
 - Open Command Prompt (CMD) and type the following command:
@@ -29,7 +29,7 @@ Before you start setting up UnderGrad, make sure you have:
 winget install MiKTeX.MiKTeX
 ```
 
-This should install latex on your system.
+This should install LaTex on your system.
 
 ### Step 2: Update MiKTeX and Configure
 
@@ -41,7 +41,7 @@ miktex packages update
 
 ### Step 3: Install Strawberry Perl
 
-`latexmk` and `latexindent` are the two essential latex modules that UnderGrad and VSCode need to be able to produce .tex files and convert them into viewable PDFs. They both require Perl to run. So, you now need to install 'Strawberry Perl' on your system using this command:
+`latexmk` and `latexindent` are the two essential LaTex modules that UnderGrad and VSCode need to be able to produce .tex files and convert them into viewable PDFs. They both require Perl to run. So, you now need to install 'Strawberry Perl' on your system using this command:
 
 ```powershell
 winget install StrawberryPerl.StrawberryPerl
