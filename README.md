@@ -23,7 +23,7 @@ Before you start setting up UnderGrad, make sure you have:
 ## Part II: Setup VSCode with LaTex
 ### Step 1: Install MiKTeX
 
-- Open Command Prompt (CMD) and type the following command:
+Open Command Prompt (CMD) and type the following command:
 
 ```powershell
 winget install MiKTeX.MiKTeX
