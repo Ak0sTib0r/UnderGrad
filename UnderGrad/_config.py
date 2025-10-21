@@ -21,16 +21,4 @@ configList = {"gen_type": genType, "gen_path": genPath, "home_path": homePath, "
 
 def get_config_list():
     return configList
-
-def __config__():
-
-    if genType == "boxed":
-        pass
-    elif genType == "free":
-        pass
-
-    if instantOpen == "true":
-        pass
-    elif instantOpen == "false":
-        pass
         
