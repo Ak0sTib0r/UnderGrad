@@ -3,12 +3,12 @@
 <p align="center">(credit: Alex Tudorache)</p>
 
 # Introduction
-UnderGrad is an open source note taking package specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for latex. 
+UnderGrad is an open source note taking package specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for LaTex. 
 
 The next section is split into three parts:
 - Prerequisites
 - Setup VSCode with Latex
-- Setup and Configure Undergrad
+- Setup and Configure UnderGrad
 
 # Setup and Configuration
 ## Part I: Prerequisites
