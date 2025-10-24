@@ -1,0 +1,166 @@
+{
+	// Place your snippets for latex here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Create Equation": {
+		"prefix": "beq",
+		"body": [
+			"\\begin{equation}",
+			"$0",
+			"\\end{equation}"
+		],
+		"description": "Create an equation"
+	},
+	"Create List": {
+		"prefix": "list",
+		"body": [
+			"\\begin{itemize}",
+			"$0",
+			"\\end{itemize}"
+		],
+		"description": "Create a list"
+	},
+	"Definition": {
+		"prefix": "def",
+		"body": [
+			"\\textbf{Definition:}",
+		],
+		"description": "Start definition"
+	},
+	"Lemma": {
+		"prefix": "lem",
+		"body": [
+			"\\textbf{Lemma:}",
+		],
+		"description": "Start lemma"
+	},
+	"Theorem": {
+		"prefix": "thm",
+		"body": [
+			"\\textbf{Theorem:}",
+		],
+		"description": "Start theorem"
+	},
+	"Corollary": {
+		"prefix": "cor",
+		"body": [
+			"\\textbf{Corollary:}",
+		],
+		"description": "Start corollary"
+	},
+	"Remark": {
+		"prefix": "rem",
+		"body": [
+			"\\textbf{Remark:}",
+		],
+		"description": "Start remark"
+	},
+	"Example": {
+		"prefix": "example",
+		"body": [
+			"\\textbf{Example:}",
+		],
+		"description": "Start example"
+	},
+	"Section": {
+		"prefix": "section",
+		"body": [
+			"\\section{$0}",
+		],
+		"description": "Create Section"
+	},
+	"Starred Section": {
+		"prefix": "ssection",
+		"body": [
+			"\\section*{$0}",
+		],
+		"description": "Create Starred Section"
+	},
+	"Fraction": {
+		"prefix": "frac",
+		"body": [
+			"\\frac{$0}{}",
+		],
+		"description": "Create Fraction"
+	},
+	"In-Line Equation": {
+		"prefix": "ileq",
+		"body": [
+			"$$0$",
+		],
+		"description": "Begin in-line equation"
+	},
+	"New Line": {
+		"prefix": "nl",
+		"body": [
+			"\\\\\\",
+		],
+		"description": "Make new line"
+	},
+	"Belongs to (or 'in')": {
+		"prefix": "inn",
+		"body": [
+			"\\in",
+		],
+		"description": "Blongs to (or in)"
+	},
+	"Indefinite Integral": {
+		"prefix": "indef",
+		"body": [
+			"\\int f(x)$0 \\,dx",
+		],
+		"description": "Indefinite integral"
+	},
+	"Definite Integral": {
+		"prefix": "integ",
+		"body": [
+			"\\int_{0}^{1} f(x)$0\\,dx",
+		],
+		"description": "Definite integral"
+	},
+	"Simple Sum": {
+		"prefix": "sum",
+		"body": [
+			"\\sum_{i=1}^{n} x_i$0",
+		],
+		"description": "Simple Sum"
+	},
+	"Infinte Sum": {
+		"prefix": "infsum",
+		"body": [
+			"\\sum_{n=1}^{\\infty} x_i$0",
+		],
+		"description": "Infinite Sum"
+	},
+	"Simple Product": {
+		"prefix": "prod",
+		"body": [
+			"\\prod_{i=1}^{n} x_i$0",
+		],
+		"description": "Simple Product"
+	},
+	"Derivative": {
+		"prefix": "der",
+		"body": [
+			"\\frac{d$0}{dx}",
+		],
+		"description": "Derivative operator"
+	},
+	"Time Derivative": {
+		"prefix": "dot",
+		"body": [
+			"\\dot{$0}",
+		],
+		"description": "Time derivative (dot)"
+	},
+}
