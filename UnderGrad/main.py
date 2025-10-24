@@ -8,7 +8,7 @@
  """
 
 __author__ = "Ákos Hadar"
-__version__ = "0.5"
+__version__ = "1.0"
 
 import customtkinter
 import os
