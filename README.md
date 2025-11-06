@@ -25,7 +25,7 @@ Before you start setting up UnderGrad, make sure you have:
 
 Open Command Prompt (CMD). You can either type the following command in full:
 
-```powershell
+```cmd
 winget install MiKTeX.MiKTeX && miktex packages update && winget install StrawberryPearl.StrawberryPearl && exit
 ```
 
