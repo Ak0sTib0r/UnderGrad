@@ -23,7 +23,13 @@ Before you start setting up UnderGrad, make sure you have:
 ## Part II: Setup VSCode with LaTex
 ### Step 1: Install MiKTeX
 
-Open Command Prompt (CMD) and type the following command:
+Open Command Prompt (CMD). You can either type the following command in full:
+
+```powershell
+winget install MiKTeX.MiKTeX && miktex packages update && winget install StrawberryPearl.StrawberryPearl && exit
+```
+
+or follow step-by-step until Step 3:
 
 ```powershell
 winget install MiKTeX.MiKTeX
@@ -78,6 +84,14 @@ cpan Log::Dispatch
 ```
 
 ### Step 6: Install Some Important MiKTeX Packages
+
+Again, you can either copy this command in full:
+
+```cmd
+miktex packages install latexindent && miktex packages install latexmk && winget install Microsoft.VisualStudioCode
+```
+
+or follow steps 7 and 8 separately.
 
 Install the required LaTeX packages (one-by-one):
 
