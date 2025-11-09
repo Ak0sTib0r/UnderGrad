@@ -1,0 +1,16 @@
+Build command:
+
+pyinstaller --noconfirm --onedir --windowed --add-data "C:\Users\akosh\Lib\site-packages\customtkinter;customtkinter" --add-data "C:\Users\akosh\Lib\tkinter;tkinter" --add-data "C:\Users\akosh\.vscode\extensions\ms-python.vscode-pylance-2025.8.3\dist\typeshed-fallback\stdlib\;_tkinter" "main.py" 
+
+******************************************************************************************************************************************
+CURRENT ERROR:
+
+Traceback (most recent call last):
+  File "main.py", line 13, in <module>
+  File "C:\Users\akosh\UnderGrad\dist\main\_internal\customtkinter\__init__.py", line 5, in <module>
+    from tkinter import Variable, StringVar, IntVar, DoubleVar, BooleanVar
+  File "C:\Users\akosh\UnderGrad\dist\main\_internal\tkinter\__init__.py", line 38, in <module>
+    TclError = _tkinter.TclError
+               ^^^^^^^^^^^^^^^^^
+AttributeError: module '_tkinter' has no attribute 'TclError'
+******************************************************************************************************************************************
