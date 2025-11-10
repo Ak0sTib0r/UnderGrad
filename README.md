@@ -226,3 +226,25 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 ## Part III: Setup and Configure UnderGrad
 
 ## Part IV: Tutorial and Snippet Dictionary
+### Snippet Dictionary
+- beq: Creates an equation environment
+- list: Creates a list environment
+- def: Starts a definition
+- lem: Starts a lemma
+- thm: Starts a theorem
+- cor: Starts a corollary
+- rem: Starts a remark
+- example: Starts an example
+- section: Begins a new numbered section
+- ssection: Begins a new unnumbered section
+- frac: Creates a fraction
+- ileq: Starts in-line equation environment
+- nl: Starts new line
+- inn: Writes 'belongs to' or 'in' symbol
+- indef: Writes an indefinite integral
+- integ: Writes a definite integral (between 0 and 1 by default)
+- sum: Writes a finite sum (between 1 and n by default)
+- infsum: Writes infinite sum
+- prod: Writes finite product (between 1 and n by default)
+- der: Writes derivative operator (with respect to x by default)
+- dot: Time derivative
