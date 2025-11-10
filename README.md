@@ -252,3 +252,6 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | der | Writes derivative operator (with respect to x by default) |
 | dot | Time derivative |
 
+MORE SNIPPETS WILL BE ADDED IN THE FUTURE! 
+
+However, you don't have to wait for the latex.json file to be updated to get new commands: as you'll need to download it for UnderGrad to work with the above commands, you can add your own custom commands (snippets) to the file or change the ones already in it. (The above snippets are just the ones I myself frequently use)
