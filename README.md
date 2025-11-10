@@ -3,12 +3,16 @@
 <p align="center">(credit: Alex Tudorache)</p>
 
 # Introduction
-UnderGrad is an open source note taking software/toolkit specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for LaTex. 
+UnderGrad is an open source note taking software/toolkit specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for LaTeX. 
 
-The next section is split into three parts:
-- Prerequisites
-- Setup VSCode with Latex
-- Setup and Configure UnderGrad
+This README contains 2 main chapters:
+- Setup and Configuration
+- Tutorial and Snippet Dictionary
+
+Section I is split into three parts:
+- Part I: Prerequisites
+- Part II: Setup VSCode with LaTeX
+- Part III: Setup and Configure UnderGrad
 
 # Setup and Configuration
 ## Part I: Prerequisites
@@ -20,7 +24,7 @@ Before you start setting up UnderGrad, make sure you have:
 - VS Code (you can either go to the end of the guide and follow the steps or install VSCode on your own from the official VSCode website: https://code.visualstudio.com/download)
 - Python (version 3.9.6) (again, you can install this from here: https://www.python.org/downloads/)
 
-## Part II: Setup VSCode with LaTex
+## Part II: Setup VSCode with LaTeX
 ### Step 1: Install MiKTeX
 
 Open Command Prompt (CMD). You can either type the following command in full:
@@ -221,3 +225,4 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 
 ## Part III: Setup and Configure UnderGrad
 
+## Part IV: Tutorial and Snippet Dictionary
