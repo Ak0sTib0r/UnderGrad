@@ -39,7 +39,7 @@ or follow step-by-step until Step 3:
 winget install MiKTeX.MiKTeX
 ```
 
-This should install LaTex on your system.
+This should install LaTeX on your system.
 
 ### Step 2: Update MiKTeX and Configure
 
@@ -51,7 +51,7 @@ miktex packages update
 
 ### Step 3: Install Strawberry Perl
 
-`latexmk` and `latexindent` are the two essential LaTex modules that UnderGrad and VSCode need to be able to produce .tex files and convert them into viewable PDFs. They both require Perl to run. So, you now need to install 'Strawberry Perl' on your system using this command:
+`latexmk` and `latexindent` are the two essential LaTeX modules that UnderGrad and VSCode need to be able to produce .tex files and convert them into viewable PDFs. They both require Perl to run. So, you now need to install 'Strawberry Perl' on your system using this command:
 
 ```powershell
 winget install StrawberryPerl.StrawberryPerl
@@ -61,7 +61,7 @@ winget install StrawberryPerl.StrawberryPerl
 
 ### Step 4: Configure your Perl Environment
 
-If you have multiple Perl installations, you might need to prioritize Strawberry Perl:
+If you have multiple Perl installations, you might need to prioritize Strawberry Perl. (If your system didn't have Perl before you just installed it, you can skip to Step 5):
 
 1. First, check which Perl is being used:
 ```cmd
