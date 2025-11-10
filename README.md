@@ -227,6 +227,12 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 
 ## Part IV: Tutorial and Snippet Dictionary
 ### Snippet Dictionary
+
+| Snippet | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 - beq: Creates an equation environment
 - list: Creates a list environment
 - def: Starts a definition
