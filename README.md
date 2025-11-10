@@ -232,25 +232,25 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | --- | --- | --- |
 | beq | Creates an equation environment |  |
 | list | Creates a list environment |  |
-| def | Starts a definition |  |
-| lem | Starts a lemma |  |
-| thm | Starts a theorem |  |
-| cor | Starts a corollary |  |
-| rem | Starts a remark |  |
-| example | Starts an example |  |
+| def | Starts a definition | \textbf{Definition:} |
+| lem | Starts a lemma | \textbf{Lemma:} |
+| thm | Starts a theorem | \textbf{Theorem:} |
+| cor | Starts a corollary | \textbf{Corollary:} |
+| rem | Starts a remark | \textbf{Remark:} |
+| example | Starts an example | \textbf{Example:} |
 | section | Begins a new numbered section |  |
 | ssection | Begins a new unnumbered section |  |
-| frac | Creates a fraction |  |
-| ileq | Starts in-line equation environment |  |
-| nl | Starts new line |  |
-| inn | Writes 'belongs to' or 'in' symbol |  |
+| frac | Creates a fraction | \frac{}{} |
+| ileq | Starts in-line equation environment | $$ |
+| nl | Starts new line | \newline |
+| inn | Writes 'belongs to' or 'in' symbol | \inn |
 | indef | Writes an indefinite integral |  |
 | integ | Writes a definite integral (between 0 and 1 by default) |  |
 | sum | Writes a finite sum (between 1 and n by default) |  |
 | infsum | Writes infinite sum |  |
 | prod | Writes finite product (between 1 and n by default) |  |
-| der | Writes derivative operator (with respect to x by default) |  |
-| dot | Time derivative |  |
+| der | Writes derivative operator (with respect to x by default) | \frac{d}{dx} |
+| dot | Time derivative | \dot{} |
 
 MORE SNIPPETS WILL BE ADDED IN THE FUTURE! 
 
