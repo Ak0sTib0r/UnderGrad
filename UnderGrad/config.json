@@ -1,8 +1,9 @@
 {
     "configs": {
         "gen_type": "boxed",
-        "gen_path": "C:\\Users\\akosh\\OneDrive\\Dokumentumok\\Notes",
-        "home_path": "C:\\Users\\akosh\\UnderGrad",
+        "gen_path": "C:\\Users\\...",
+        "home_path": "C:\\Users\\...\\UnderGrad",
         "instant_open": "true"
     }
+
 }
