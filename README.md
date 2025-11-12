@@ -251,9 +251,9 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | prod | Writes finite product (between 1 and n by default) |  |
 | der | Writes derivative operator (with respect to x by default) | \frac{d}{dx} |
 | dot | Time derivative | \dot{} |
-| mat2 | Writes 2x2 identity matrices |  |
-| mat3 | Writes 3x3 identity matrices |  |
-| mat4 | Writes 4x4 identity matrices |  |
+| mat2 | Writes 2x2 identity matrix |  |
+| mat3 | Writes 3x3 identity matrix |  |
+| mat4 | Writes 4x4 identity matrix |  |
 
 MORE SNIPPETS WILL BE ADDED IN THE FUTURE! 
 
