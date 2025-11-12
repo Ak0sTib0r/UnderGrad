@@ -254,6 +254,13 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | mat2 | Writes 2x2 identity matrix |  |
 | mat3 | Writes 3x3 identity matrix |  |
 | mat4 | Writes 4x4 identity matrix |  |
+| rset | Writes 'real' set symbol | \mathbb{R} |
+| cset | Writes 'complex' set symbol | \mathbb{C} |
+| zset | Writes 'integer' set symbol | \mathbb{Z} |
+| nset | Writes 'natural' set symbol | \mathbb{N} |
+| bra | Writes 'bra' bracket. NEEDS \usepackage{braket} | \bra{} |
+| ket | Writes 'ket' bracket. NEEDS \usepackage{braket} | \ket{} |
+| braket | Writes 'braket' bracket. NEEDS \usepackage{braket} | \braket{|} |
 
 MORE SNIPPETS WILL BE ADDED IN THE FUTURE! 
 
