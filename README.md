@@ -242,7 +242,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | ssection | Begins a new unnumbered section |  |
 | frac | Creates a fraction | \frac{}{} |
 | ileq | Starts in-line equation environment | $$ |
-| nl | Starts new line | \newline |
+| nl | Starts new line | \\ |
 | inn | Writes 'belongs to' or 'in' symbol | \inn |
 | indef | Writes an indefinite integral |  |
 | integ | Writes a definite integral (between 0 and 1 by default) |  |
@@ -251,6 +251,9 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | prod | Writes finite product (between 1 and n by default) |  |
 | der | Writes derivative operator (with respect to x by default) | \frac{d}{dx} |
 | dot | Time derivative | \dot{} |
+| mat2 | Writes 2x2 identity matrices |  |
+| mat3 | Writes 3x3 identity matrices |  |
+| mat4 | Writes 4x4 identity matrices |  |
 
 MORE SNIPPETS WILL BE ADDED IN THE FUTURE! 
 
