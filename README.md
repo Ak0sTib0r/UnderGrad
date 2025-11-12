@@ -242,7 +242,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | ssection | Begins a new unnumbered section |  |
 | frac | Creates a fraction | \frac{}{} |
 | ileq | Starts in-line equation environment | $$ |
-| nl | Starts new line | \\ |
+| nl | Starts new line | \\\\ |
 | inn | Writes 'belongs to' or 'in' symbol | \inn |
 | indef | Writes an indefinite integral |  |
 | integ | Writes a definite integral (between 0 and 1 by default) |  |
