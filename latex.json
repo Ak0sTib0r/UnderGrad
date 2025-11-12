@@ -163,4 +163,86 @@
 		],
 		"description": "Time derivative (dot)"
 	},
+	"2x2 Matrix": {
+		"prefix": "mat2",
+		"body": [
+			"\\begin{pmatrix}",
+			"1$0 & 0\\\\\\",
+			"0 & 1 \\\\\\",
+			"\\end{pmatrix}",
+		],
+		"description": "Creates a 2x2 identity matrix"
+	},
+	"3x3 Matrix": {
+		"prefix": "mat3",
+		"body": [
+			"\\begin{pmatrix}",
+			"1$0 & 0 & 0 \\\\\\",
+			"0 & 1 & 0 \\\\\\",
+			"0 & 0 & 1",
+			"\\end{pmatrix}",
+		],
+		"description": "Creates a 3x3 identity matrix"
+	},
+	"4x4 Matrix": {
+		"prefix": "mat4",
+		"body": [
+			"\\begin{pmatrix}",
+			"1$0 & 0 & 0 & 0 \\\\\\",
+			"0 & 1 & 0 & 0 \\\\\\",
+			"0 & 0 & 1 & 0 \\\\\\",
+			"0 & 0 & 0 & 1",
+			"\\end{pmatrix}",
+		],
+		"description": "Creates a 4x4 identity matrix"
+	},
+	"Real Set": {
+		"prefix": "rset",
+		"body": [
+			"\\mathbb{R}",
+		],
+		"description": "Writes 'real' set symbol"
+	},
+	"Complex Set": {
+		"prefix": "cset",
+		"body": [
+			"\\mathbb{C}",
+		],
+		"description": "Writes 'complex' set symbol"
+	},
+	"Integer Set": {
+		"prefix": "zset",
+		"body": [
+			"\\mathbb{Z}",
+		],
+		"description": "Writes 'integer' set symbol"
+	},
+	"Natural Set": {
+		"prefix": "nset",
+		"body": [
+			"\\mathbb{N}",
+		],
+		"description": "Writes 'natural' set symbol"
+	},
+	"'Bra' (braket)": {
+		"prefix": "bra",
+		"body": [
+			"\\bra{$0}",
+		],
+		"description": "Writes 'bra' bracet. NEEDS '\\usepackage{braket}'"
+	},
+	"'Ket' (braket)": {
+		"prefix": "ket",
+		"body": [
+			"\\ket{$0}",
+		],
+		"description": "Writes 'ket' bracet. NEEDS '\\usepackage{braket}'"
+	},
+	"'Braket' (braket)": {
+		"prefix": "braket",
+		"body": [
+			"\\braket{$0|}",
+		],
+		"description": "Writes 'bra' bracet. NEEDS '\\usepackage{braket}'"
+	},
 }
