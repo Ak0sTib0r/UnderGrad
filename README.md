@@ -225,7 +225,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 
 ## Part III: Setup and Configure UnderGrad
 
-## Part IV: Tutorial and Snippet Dictionary
+# Tutorial and Snippet Dictionary
 ### Snippet Dictionary
 
 | Snippet | Description | Maps To |
