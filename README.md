@@ -250,6 +250,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | infsum | Writes infinite sum |  |
 | prod | Writes finite product (between 1 and n by default) |  |
 | der | Writes derivative operator (with respect to x by default) | \frac{d}{dx} |
+| pder | Writes partial derivative operator (with respect to x by default) | \frac{\partial}{\partial x} |
 | dot | Time derivative | \dot{} |
 | mat2 | Writes 2x2 identity matrix |  |
 | mat3 | Writes 3x3 identity matrix |  |
