@@ -262,6 +262,8 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | bra | Writes 'bra' bracket. NEEDS \usepackage{braket} | \bra{} |
 | ket | Writes 'ket' bracket. NEEDS \usepackage{braket} | \ket{} |
 | braket | Writes 'braket' bracket. NEEDS \usepackage{braket} | \braket{} |
+| vec | Writes bold vector notation | \textbf{} |
+| vvec | Writes arrow vector notation | \vec{} |
 
 MORE SNIPPETS WILL BE ADDED IN THE FUTURE! 
 
