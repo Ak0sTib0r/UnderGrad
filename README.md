@@ -230,7 +230,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 
 | Snippet | Description | Maps To |
 | --- | --- | --- |
-| beq | Creates an equation environment | ```latex \beging{equation} \\ \end{equation}``` |
+| beq | Creates an equation environment |  |
 | list | Creates a list environment |  |
 | def | Starts a definition | \textbf{Definition:} |
 | lem | Starts a lemma | \textbf{Lemma:} |
