@@ -252,6 +252,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | der | Writes derivative operator (with respect to x by default) | \frac{d}{dx} |
 | pder | Writes partial derivative operator (with respect to x by default) | \frac{\partial}{\partial x} |
 | dot | Time derivative | \dot{} |
+| ddot | Double time derivative | \ddot{} |
 | mat2 | Writes 2x2 identity matrix |  |
 | mat3 | Writes 3x3 identity matrix |  |
 | mat4 | Writes 4x4 identity matrix |  |
@@ -264,6 +265,8 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | braket | Writes 'braket' bracket. NEEDS \usepackage{braket} | \braket{} |
 | vec | Writes bold vector notation | \textbf{} |
 | vvec | Writes arrow vector notation | \vec{} |
+| cross | Writes cross product | \times{} |
+| dott | Writes dot product | \cdot{} |
 
 MORE SNIPPETS WILL BE ADDED IN THE FUTURE! 
 
