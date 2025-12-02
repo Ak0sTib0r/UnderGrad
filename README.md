@@ -232,7 +232,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 
 | Config | Description | Options |
 | --- | --- | --- |
-| gen_type | Defines whether or not you'd like to create a separate foolder for each LaTeX bundle | "boxed" (creates separate folders) or "free" (doesn't create separate folders) |
+| gen_type | Defines whether or not you'd like to create a separate folder for each LaTeX bundle (a LaTeX bundle consits of the .tex file, PDF and other files which are needed to integrate LaTeX with VSCode) | "boxed" (creates separate folders) or "free" (doesn't create separate folders) |
 | gen_path | Defines the path where you'd like to save your files | - |
 | home_path | Defines UnderGrad\ path | - |
 | instant_open | Defines whether or not you want to open .tex files upon generation | "true" or "false" |
