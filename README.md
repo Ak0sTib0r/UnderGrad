@@ -237,7 +237,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 | home_path | Defines UnderGrad\ path | - |
 | instant_open | Defines whether or not you want to open .tex files upon generation | "true" or "false" |
 
-- Create a shortcut for 'UnderGrad\\UnderGrad.exe'.
+- Create a shortcut for 'UnderGrad\\UnderGrad.exe' on your desktop and/or your taskbar.
 
 # Tutorial and Snippet Dictionary
 ### Snippet Dictionary
