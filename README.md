@@ -225,6 +225,18 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 
 ## Part III: Setup and Configure UnderGrad
 
+### Outline
+- Download the UnderGrad folder and unzip it
+- In UnderGrad\_internal, unzip internal_folders.zip
+- In UnderGrad\, open the config.json file and configure as you see fit:
+
+| config | Description | options |
+| --- | --- | --- |
+| gen_type | Defines whether or not you'd like to create a separate foolder for each LaTeX bundle | "boxed" (creates separate folders) or "free" (doesn't create separate folders) |
+| gen_path | Defines the path where you'd like to save your files | - |
+| home_path | Defines UnderGrad\ path | - |
+| instant_open | Defines whether or not you want to open .tex files upon generation | "true" or "false" |
+
 # Tutorial and Snippet Dictionary
 ### Snippet Dictionary
 
