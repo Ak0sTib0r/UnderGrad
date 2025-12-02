@@ -227,8 +227,8 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 
 ### Outline
 - Download the UnderGrad folder and unzip it
-- In UnderGrad\_internal, unzip internal_folders.zip
-- In UnderGrad\, open the config.json file and configure as you see fit:
+- In UnderGrad\\_internal, unzip internal_folders.zip
+- In UnderGrad\\, open the config.json file and configure as you see fit:
 
 | config | Description | options |
 | --- | --- | --- |
