@@ -156,12 +156,26 @@
 		],
 		"description": "Derivative operator"
 	},
+	"Partial Derivative": {
+		"prefix": "pder",
+		"body": [
+			"\\frac{\\partial$0}{\\partial x}",
+		],
+		"description": "Derivative operator"
+	},
 	"Time Derivative": {
 		"prefix": "dot",
 		"body": [
 			"\\dot{$0}",
 		],
 		"description": "Time derivative (dot)"
+	},
+	"Double Time Derivative": {
+		"prefix": "ddot",
+		"body": [
+			"\\ddot{$0}",
+		],
+		"description": "Double time derivative (dot-dot)"
 	},
 	"2x2 Matrix": {
 		"prefix": "mat2",
@@ -229,20 +243,48 @@
 		"body": [
 			"\\bra{$0}",
 		],
-		"description": "Writes 'bra' bracet. NEEDS '\\usepackage{braket}'"
+		"description": "Writes 'bra' bracket. NEEDS '\\usepackage{braket}'"
 	},
 	"'Ket' (braket)": {
 		"prefix": "ket",
 		"body": [
 			"\\ket{$0}",
 		],
-		"description": "Writes 'ket' bracet. NEEDS '\\usepackage{braket}'"
+		"description": "Writes 'ket' bracket. NEEDS '\\usepackage{braket}'"
 	},
 	"'Braket' (braket)": {
 		"prefix": "braket",
 		"body": [
 			"\\braket{$0|}",
 		],
-		"description": "Writes 'bra' bracet. NEEDS '\\usepackage{braket}'"
+		"description": "Writes 'bra' bracket. NEEDS '\\usepackage{braket}'"
+	},
+	"Vector (bold)": {
+		"prefix": "vec",
+		"body": [
+			"\\textbf{$0}",
+		],
+		"description": "Writes bold vector notation"
+	},
+	"Vector (arrow)": {
+		"prefix": "vvec",
+		"body": [
+			"\\vec{$0}",
+		],
+		"description": "Writes arrow vector notation"
+	},
+	"Cross Product": {
+		"prefix": "cross",
+		"body": [
+			"\\times",
+		],
+		"description": "Writes cross product"
+	},
+	"Dot Product": {
+		"prefix": "dott",
+		"body": [
+			"\\cdot",
+		],
+		"description": "Writes dot product"
 	},
 }
