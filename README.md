@@ -230,7 +230,7 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 - In 'UnderGrad\\_internal', unzip 'internal_folders.zip'.
 - In 'UnderGrad\\', open 'config.json' and configure as you see fit:
 
-| config | Description | options |
+| Config | Description | Options |
 | --- | --- | --- |
 | gen_type | Defines whether or not you'd like to create a separate foolder for each LaTeX bundle | "boxed" (creates separate folders) or "free" (doesn't create separate folders) |
 | gen_path | Defines the path where you'd like to save your files | - |
