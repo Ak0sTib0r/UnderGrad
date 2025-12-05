@@ -5,9 +5,11 @@
 # Introduction
 UnderGrad is an open source note taking software/toolkit specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for LaTeX. 
 
-This README contains 2 main sections:
+This README contains 4 main sections:
+- Introduction (above)
 - Section I: Setup and Configuration
 - Section II: Tutorial and Snippet Dictionary
+- FAQs
 
 Section I is split into three parts:
 - Part I: Prerequisites
@@ -299,7 +301,7 @@ However, you don't have to wait for the latex.json file to be updated to get new
 
 # FAQs
 
-### What's wring with the icon?
+### What's wrong with the icon?
 Sometimes, the UnderGrad icon won't appear on installation. This can easily be fixed:
 - First, right click on your desktop shortcut and open the 'Properties' window.
 - Next, click on the 'Change Icon' option in the middle at the bottom.
