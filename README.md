@@ -5,6 +5,8 @@
 # Introduction
 UnderGrad is an open source note taking software/toolkit specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for LaTeX. 
 
+**YOU CAN VIEW THE UNDERGRAD WIKI [HERE](https://github.com/Ak0sTib0r/UnderGrad/wiki)**
+
 This README contains 4 main sections:
 - Introduction (above)
 - Section I: Setup and Configuration
