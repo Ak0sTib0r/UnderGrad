@@ -290,3 +290,17 @@ pip install pyinstaller && pyinstaller --noconfirm --onedir --windowed --add-dat
 MORE SNIPPETS WILL BE ADDED IN THE FUTURE! 
 
 However, you don't have to wait for the latex.json file to be updated to get new commands: as you'll need to download it for UnderGrad to work with the above commands, you can add your own custom commands (snippets) to the file or change the ones already in it. (The above snippets are just the ones I myself frequently use)
+
+### Tutorial
+
+# FAQs
+
+### What's wring with the icon?
+Sometimes, the UnderGrad icon won't appear on installation. This can easily be fixed:
+- First, right click on your desktop shortcut and open the 'Properties' window.
+- Next, click on the 'Change Icon' option in the middle at the bottom.
+- Click on the 'browse' button and navigate to the 'UnderGrad' folder (wherever you installed it).
+- Select either .ico files in the folder and click 'Open'.
+- Finally, click 'Apply' and 'Save'.
+
+This should change the default Python .exe icon the UnderGrad logo.
