@@ -227,8 +227,10 @@ Open VS Code settings (bottom left corner), click the JSON icon in the top right
 
 ### Outline
 - Download the 'UnderGrad' folder and unzip it.
-- In 'UnderGrad\\_internal', unzip 'internal_folders.zip'.
-- Remove 'internal_folders.zip'.
+- Run the following command in your terminal replacing "<CustomTkinter Path>" and "<Path to Python Script>" with the relevant paths on your device.
+```powershell
+pip install pyinstaller && pyinstaller --noconfirm --onedir --windowed --add-data "<CustomTkinter Location>/customtkinter;customtkinter/"  "<Path to Python Script>"
+```
 - In 'UnderGrad\\', open 'config.json' and configure as you see fit:
 
 | Config | Description | Options |
