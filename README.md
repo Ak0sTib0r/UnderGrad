@@ -5,16 +5,16 @@
 # Introduction
 UnderGrad is an open source note taking software/toolkit specifically designed for Mathematics and Physics Undergraduates. It's built with Python (3.9.6) and comes with a GUI as well as a library of snippets (shortcuts) for LaTeX. 
 
-This README contains 2 main chapters:
-- Setup and Configuration
-- Tutorial and Snippet Dictionary
+This README contains 2 main sections:
+- Section I: Setup and Configuration
+- Section II: Tutorial and Snippet Dictionary
 
 Section I is split into three parts:
 - Part I: Prerequisites
 - Part II: Setup VSCode with LaTeX
 - Part III: Setup and Configure UnderGrad
 
-# Setup and Configuration
+# Section I: Setup and Configuration
 ## Part I: Prerequisites
 
 Before you start setting up UnderGrad, make sure you have:
@@ -244,7 +244,7 @@ pip install pyinstaller && pyinstaller --noconfirm --onedir --windowed --add-dat
 
 - Create a shortcut for 'UnderGrad\\UnderGrad.exe' on your desktop and/or your taskbar.
 
-# Tutorial and Snippet Dictionary
+# Section II: Tutorial and Snippet Dictionary
 ### Snippet Dictionary
 
 | Snippet | Description | Maps To |
