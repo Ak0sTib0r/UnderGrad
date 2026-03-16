@@ -303,6 +303,8 @@ Upon opening UnderGrad, you will be greeted with the following screen (without R
 
 <img src="UnderGrad/MainAnno.png" width="500" height="500"/>
 
+\textbf{I} will prompt you to name your file
+
 ### Using UnderGrad with the Terminal
 
 # FAQs
