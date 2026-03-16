@@ -301,7 +301,7 @@ However, you don't have to wait for the latex.json file to be updated to get new
 
 Upon opening UnderGrad, you will be greeted with the following screen (without Roman numerals)
 
-<img src="UnderGrad/MainAnno.png" width="500" height="500"/>
+<img src="UnderGrad/MainAnno.PNG" width="500" height="500"/>
 
 **I** will prompt you to name your file. 
 
