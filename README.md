@@ -299,6 +299,10 @@ However, you don't have to wait for the latex.json file to be updated to get new
 
 ### Using UnderGrad with the GUI
 
+Upon opening UnderGrad, you will be greeted with the following screen
+
+![](UnderGrad/UG_Cropped.png)
+
 ### Using UnderGrad with the Terminal
 
 # FAQs
