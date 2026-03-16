@@ -301,6 +301,8 @@ However, you don't have to wait for the latex.json file to be updated to get new
 
 Upon opening UnderGrad, you will be greeted with the following screen (without Roman numerals)
 
+<img src="UnderGrad/MainAnno.png" width="100" height="100"/>
+
 ![](UnderGrad/MainAnno.png)
 
 ### Using UnderGrad with the Terminal
