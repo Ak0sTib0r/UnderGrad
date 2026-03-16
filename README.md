@@ -301,13 +301,19 @@ However, you don't have to wait for the latex.json file to be updated to get new
 
 Upon opening UnderGrad, you will be greeted with the following screen (without Roman numerals)
 
-<img src="UnderGrad/MainAnno.PNG" width="500" height="500"/>
+<img src="UnderGrad/MainAnno.png" width="500" height="500"/>
 
 **I** will prompt you to name your file. 
 
-<img src="UnderGrad/NewDoc.png" width="500" height="300"/>
+<img src="UnderGrad/NewDoc.PNG" width="400" height="240"/>
 
-Once you gove a name and click OK, VSCode should open a .tex file with your pre-defined template.
+Once you give a name and click OK, VSCode should open a .tex file with your pre-defined template. You can open previous projects by clicking **II**. You'll be directed to your generation path.
+
+**III** allows you to change your configurations. You may edit the config.json file in VSCode. Similarly, you may also edit your template in VSCode by clicking **IV**. Clicking it will open your temp.tex file in VSCode where you're then free to edit it.
+
+If you'd like, you can also use UnderGrad through the terminal through **V**. (see next section)
+
+Finally, **VI** will direct you to this page.
 
 ### Using UnderGrad with the Terminal
 
