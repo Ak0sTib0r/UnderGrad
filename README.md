@@ -305,6 +305,8 @@ Upon opening UnderGrad, you will be greeted with the following screen (without R
 
 **I** will prompt you to name your file. 
 
+<img src="UnderGrad/NewDoc.png" width="500" height="300"/>
+
 Once you gove a name and click OK, VSCode should open a .tex file with your pre-defined template.
 
 ### Using UnderGrad with the Terminal
