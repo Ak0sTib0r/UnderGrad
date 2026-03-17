@@ -317,6 +317,19 @@ Finally, **VI** will direct you to this page.
 
 ### Using UnderGrad with the Terminal
 
+**This is a feature in development**
+
+You can also use UnderGrad via the Terminal. The terminal will open in the UnderGrad context (UnderGrad path) and you may execute the following commands
+
+| Command | Description |
+| --- | --- |
+| newfile | Create new .tex file. Takes one argument: document title. |
+| notes | Opens your generation path in file explorer. |
+| helpme | Lists all available commands and definitions. |
+| config.json | Opens config file. |
+
+As this feature is still in development, the first 3 commands require a python environment and need the .py extension. i.e. to create a new file, you're really running the newfile.py script directly. (python newfile.py DOC_NAME) 
+
 # FAQs
 
 ### What's wrong with the icon?
